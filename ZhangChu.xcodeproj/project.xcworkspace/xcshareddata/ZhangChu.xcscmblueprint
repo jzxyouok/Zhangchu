@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20d59a02-26ea-4229-9802-22470f6824ba++4345",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "20d59a02-26ea-4229-9802-22470f6824ba++4345" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "20d59a02-26ea-4229-9802-22470f6824ba++4345" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "19A71B8B-4CF0-4286-B1B8-A56C8451A634",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "20d59a02-26ea-4229-9802-22470f6824ba++4345" : "text\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZhangChu",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZhangChu\/ZhangChu.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:RenneZero\/text.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20d59a02-26ea-4229-9802-22470f6824ba++4345"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/localhost\/myCode",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20d59a02-26ea-4229-9802-22470f6824ba++4345"
+    }
+  ]
+}

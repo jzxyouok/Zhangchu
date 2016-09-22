@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "64c4c920-eaab-4394-95cf-00073759077b++6544",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "64c4c920-eaab-4394-95cf-00073759077b++6544" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "64c4c920-eaab-4394-95cf-00073759077b++6544" : 0,
+    "82881733960C56F19C32AF7F05C311441EB7AA12" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5ABC3337-C6BF-40CD-A52B-A44DA1CC66DD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "64c4c920-eaab-4394-95cf-00073759077b++6544" : "ZhangChu\/",
+    "82881733960C56F19C32AF7F05C311441EB7AA12" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZhangChu",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZhangChu.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.7.155.77\/mycode",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "64c4c920-eaab-4394-95cf-00073759077b++6544"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/swordChow\/Zhangchu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "82881733960C56F19C32AF7F05C311441EB7AA12"
+    }
+  ]
+}

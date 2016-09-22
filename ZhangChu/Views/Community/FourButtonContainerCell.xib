@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="77" id="KGk-i7-Jjw" customClass="FourButtonContainerCell" customModule="ZhangChu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="441" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="441" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="EZ3-lt-qaR">
+                        <rect key="frame" x="10" y="5" width="421" height="42"/>
+                        <subviews>
+                            <button opaque="NO" tag="400" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBL-gE-nbj">
+                                <rect key="frame" x="0.0" y="0.0" width="99" height="42"/>
+                                <state key="normal" image="xinshourumen.png"/>
+                                <connections>
+                                    <action selector="fourBtnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="DyZ-68-6AS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="401" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjL-l1-p6L">
+                                <rect key="frame" x="107" y="0.0" width="100" height="42"/>
+                                <state key="normal" image="shicaidapei.png"/>
+                                <connections>
+                                    <action selector="fourBtnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xiv-K5-f9b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="402" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPc-ny-JKv">
+                                <rect key="frame" x="215" y="0.0" width="99" height="42"/>
+                                <state key="normal" image="changjingcaipu.png"/>
+                                <connections>
+                                    <action selector="fourBtnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Pj0-eT-iNX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="403" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2M-gV-4RR">
+                                <rect key="frame" x="322" y="0.0" width="99" height="42"/>
+                                <state key="normal" image="cainixihuan.png"/>
+                                <connections>
+                                    <action selector="fourBtnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="g3L-pV-uHg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="5qZ-cQ-nZW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5qZ-cQ-nZW"/>
+                            </mask>
+                        </variation>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="yfs-Qr-2E4">
+                        <rect key="frame" x="10" y="56" width="421" height="14"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新手入门" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHc-cV-OXu">
+                                <rect key="frame" x="0.0" y="0.0" width="93" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="食材搭配" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VvE-WW-U2n">
+                                <rect key="frame" x="110" y="0.0" width="92" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="场景菜谱" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wml-cs-bmS">
+                                <rect key="frame" x="219" y="0.0" width="93" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="猜你喜欢" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xs1-lV-CeG">
+                                <rect key="frame" x="329" y="0.0" width="92" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="pHc-cV-OXu" firstAttribute="baseline" secondItem="VvE-WW-U2n" secondAttribute="firstBaseline" id="ro2-u2-l9S"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yfs-Qr-2E4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Cla-aY-ucv"/>
+                    <constraint firstAttribute="bottom" secondItem="yfs-Qr-2E4" secondAttribute="bottom" constant="5" id="INh-Zf-X5W"/>
+                    <constraint firstAttribute="trailing" secondItem="EZ3-lt-qaR" secondAttribute="trailing" constant="10" id="PsF-6Z-coV"/>
+                    <constraint firstItem="yfs-Qr-2E4" firstAttribute="top" secondItem="EZ3-lt-qaR" secondAttribute="bottom" constant="-5" id="cun-Zk-0cL"/>
+                    <constraint firstAttribute="trailing" secondItem="yfs-Qr-2E4" secondAttribute="trailing" constant="10" id="ggS-uV-Jzm"/>
+                    <constraint firstItem="EZ3-lt-qaR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="jJy-ym-XFA"/>
+                    <constraint firstItem="EZ3-lt-qaR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="nCc-ix-0II"/>
+                    <constraint firstItem="yfs-Qr-2E4" firstAttribute="top" secondItem="EZ3-lt-qaR" secondAttribute="bottom" constant="10" id="rp9-ib-JfQ"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="cun-Zk-0cL"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="334.5" y="207.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cainixihuan.png" width="30" height="30"/>
+        <image name="changjingcaipu.png" width="30" height="30"/>
+        <image name="shicaidapei.png" width="30" height="30"/>
+        <image name="xinshourumen.png" width="30" height="30"/>
+    </resources>
+</document>
